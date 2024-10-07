@@ -10,7 +10,7 @@ public class Main {
 
         System.out.println("Enter a string to validate against token patterns:");
         String input = scanner.nextLine();
-        validateInput(input, Patterns.DOUBLE);
+        validateInput(input, Patterns.BINARY_STRING);
 
         scanner.close();
     }

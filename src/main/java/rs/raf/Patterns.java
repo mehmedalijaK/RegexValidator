@@ -15,6 +15,5 @@ public class Patterns {
         "double",
         MINUS_OPTIONAL.regex() + NUMBER.regex() + "(" + DOT.regex() + NUMBER.regex() + ")?"
     );
-
-    //DECIMAL_POINT
+    public static final PatternType BINARY_STRING = new PatternType("binary_string", "^[01]*");
 }
